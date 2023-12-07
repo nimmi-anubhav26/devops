@@ -6,7 +6,7 @@
 
 
     // Spinner
-    var spinner = function () {
+    const spinner = function () {
         setTimeout(function () {
             if ($('#spinner').length > 0) {
                 $('#spinner').removeClass('show');
